@@ -70,5 +70,5 @@ make           # Compiles the project
 
 ## Course Info
 
-📚 **Programming Calculators (CB & CD)** — 2024  
+📚 **Computer Programming (CB & CD)** — 2024  
 🧠 **Task Score:** 120/100

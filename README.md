@@ -68,8 +68,6 @@ make           # Compiles the project
 - Coding style **adheres to the Cpp Core Guidelines**.
 - All tasks **passed the Moodle checker** with a score of **100/100**.
 
----
-
 ## Course Info
 
 📚 **Programming Calculators (CB & CD)** — 2024  

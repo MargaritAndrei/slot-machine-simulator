@@ -20,8 +20,6 @@ The simulator mimics the behavior of a real slot machine, allowing for operation
 **Implementation:**  
 Used a dynamically allocated temporary vector to store and shift column elements before copying them back to the matrix.
 
----
-
 ### 🎰 Task 2: The Game Might Be Rigged...
 **Objective:** Identify all valid winning combinations in the top 3 rows (the game "panel") and compute the total score.  
 **Implementation:**
@@ -30,35 +28,25 @@ Used a dynamically allocated temporary vector to store and shift column elements
 - Carefully handled intersection cases ("X" shapes).
 - Applied score multipliers for special symbols (e.g., 7) and added bonus scores based on symbol diversity.
 
----
-
 ### 🔁 Task 3: All In
 **Objective:** Perform a sequence of column rotations and sum up the intermediate scores after each step.  
 **Implementation:**  
 Reused the logic from Task 1 and Task 2 to apply rotations and recompute scores iteratively.
-
----
 
 ### ✏️ Task 4: So Close!
 **Objective:** Determine the maximum score obtainable by changing a single symbol in the panel.  
 **Implementation:**  
 For every position in the panel, tested all possible replacements (0–9), evaluated the resulting score, and kept the maximum.
 
----
-
 ### 🔧 Task 5: What If...?
 **Objective:** Find the best possible score obtainable by rotating any two columns by any number of positions.  
 **Implementation:**  
 Tested every pair of columns and every possible pair of rotation values. Used Task 1 to apply rotations and Task 2 to compute scores. Pruned unnecessary operations by skipping symmetrical duplicates where possible.
 
----
-
 ### 🧩 Task 6 (Bonus): 99% of Gamblers Quit Before They Win
 **Objective:** Find the minimum cost path from the top-left to the bottom-right corner of the 3×M panel, where the cost is the absolute difference from the initial symbol.  
 **Implementation:**  
 Used a BFS-based shortest path algorithm (Lee's algorithm) with a dynamically allocated queue to track positions and compute the minimal path cost.
-
----
 
 ## Structure
 

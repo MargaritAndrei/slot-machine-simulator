@@ -67,8 +67,3 @@ make           # Compiles the project
 - All memory was **dynamically allocated and properly freed**.
 - Coding style **adheres to the Cpp Core Guidelines**.
 - All tasks **passed the Moodle checker** with a score of **120/100**.
-
-## Course Info
-
-📚 **Computer Programming (CB & CD)** — 2024  
-🧠 **Task Score:** 120/100

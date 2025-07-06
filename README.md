@@ -1,4 +1,4 @@
-# Slot Machine Simulator - PCLP Assignment 1
+# Slot Machine Simulator
 
 This project is an arcade-style **slot machine simulator** implemented in C, created as part of the first programming assignment for the _Computer Programming_ course (PCLP).
 

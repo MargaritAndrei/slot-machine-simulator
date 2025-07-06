@@ -1,0 +1,29 @@
+Descriere rezolvare Tema1 - PCLP:
+
+Pentru toate taskurile: Am citit intr-o variabila task si intr-o matrice alocata dinamic datele
+care sunt aceleasi pentru fiecare task. Am folosit un switch care in functie de valoarea variabilei task
+va executa una dintre functiile create pentru fiecare cerinta.
+
+Task1: 
+Am folosit un vector alocat dinamic pentru a face permutarea elementelor din matrice.
+
+Task2: 
+Am folosit un vector de frecventa alocat dinamic pentru a calcula numarul de simboluri din cadran.
+Pentru combinatiile castigatoare am verificat pur si simplu
+
+Task3: 
+Am folosit celelalte doua functii corespunzatoare celorlalte doua task-uri.
+
+Task4:
+Am calculat scorul pentru toate posibilitatile de a schimba un element din cadran.
+Efectiv am luat pentru fiecare element din cadran fiecare valoare de la 0 la 9 si am calculat scorul
+folosind functia corespunzatoare taskului 2.
+
+Task5:
+Asemanator taskului 4, am calculat scorul pentru toate posibilitatile de a roti coloanele din matrice,
+folosindu-ma de functia taskului 1, iar apoi am calculat scorul folosind functia corespunzatoare taskului 2.
+
+Task6:
+Nu are legatura cu celelalte task-uri decat prin existenta cadranului, am folosit algoritmul lui lee
+implementat intr-o "coada" q alocata dinamic pentru a gasi drumul de cost minim din cadranul matricii
+"labirint".

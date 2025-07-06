@@ -72,7 +72,7 @@ Used a BFS-based shortest path algorithm (Lee's algorithm) with a dynamically al
 ```bash
 make           # Compiles the project
 ./tema1        # Runs the program
-
+```
 
 ## Notes
 
